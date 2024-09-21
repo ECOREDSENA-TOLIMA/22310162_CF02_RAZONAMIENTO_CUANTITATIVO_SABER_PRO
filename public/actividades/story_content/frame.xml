@@ -1211,7 +1211,6 @@
       <string id="closed_captions">Subtítulos</string>
       <string id="closed_captions_tip">Activar / desactivar subtítulos</string>
       <string id="closedcaptions_shortcut">Activar/Desactivar accesibilidad del texto</string>
-      <string id="continue">Continuar</string>
       <string id="continueresponsive">Continuar</string>
       <string id="ctrl_key">Ctrl</string>
       <string id="definition">Definición</string>
@@ -1323,6 +1322,7 @@
       <string id="video_transcript_select_track">Seleccionar pista</string>
       <string id="video_transcript_title">Transcripciones</string>
       <string id="zoom_to_fit">Habilitar zoom del navegador</string>
+      <string id="continue">Continuar</string>
     </string_table>
   </string_tables>
   <fonts>
@@ -1339,13 +1339,13 @@
       <links>
         <slidelink slideid="_player.6g8RcXIVtvA" displaytext="Nuevo Presentación de Microsoft PowerPoint" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6g8RcXIVtvA.6GrUdUpuerp" displaytext="Diapositiva sin título" expand="true" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.5pMSQdNTnb5" displaytext="¿Cuál es la proposición lógica que representa correctamente la negación de la siguiente afirmación?: “Si Juan estudia, entonces aprobará el examen”" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.6BpZ7VPEKIM" displaytext="Dado el conjunto A = {1, 2, 3, 4, 5} y el conjunto B = {3, 4, 5, 6, 7}, ¿cuál es la intersección de A y B?" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.5dbTNEJ55u1" displaytext="Si el ángulo  θ en un triángulo rectángulo tiene una tangente de 3/4, ¿cuál es el valor de la secante de θ?" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.5gTwPK6AEJb" displaytext="Un número complejo se expresa como z = 3 + 4i. ¿Cuál es el valor del módulo de z?" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.64ChZtVSxi8" displaytext="En una muestra aleatoria de 40 aprendices, se encontró que el promedio de horas de estudio por semana es 15 horas, con una desviación estándar de 2 horas. ¿Cuál es el intervalo de confianza del 95 % para el promedio de horas de estudio en toda la población? (Considere Z0.025 = 1.96)." expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.5j8Nrlgft3f" displaytext="¿Cuál es el siguiente número en la serie numérica 2, 6, 12, 20, 30?" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.6GrUdUpuerp" displaytext="Diapositiva sin título" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.5pMSQdNTnb5" displaytext="¿Cuál es el primer paso en la resolución efectiva de problemas matemáticos?" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.6BpZ7VPEKIM" displaytext="¿Qué subtema aborda el proceso de transformar datos en información útil para resolver problemas?" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.5dbTNEJ55u1" displaytext="¿Cuál de los siguientes subtemas se centra en la evaluación de posibles soluciones antes de elegir la mejor alternativa?" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.5gTwPK6AEJb" displaytext="¿En qué subtema se estudia la manera de estructurar la información para facilitar su interpretación y uso?" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.64ChZtVSxi8" displaytext="¿Qué subtema incluye la elaboración de estrategias para abordar y resolver problemas matemáticos?" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.5j8Nrlgft3f" displaytext="¿Cuál de los siguientes métodos se incluye en el desarrollo de estrategias para la solución de problemas cuantitativos?" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
