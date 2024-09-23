@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE_DEL_COMPONENTE_FORMATIVO',
+    componenteFormativo: 'Pensamiento matemático, espacial y estadístico',
     descripcionCurso: 'BREVE_DESCRIPCIÓN',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
