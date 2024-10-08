@@ -39,7 +39,7 @@
         p Este enfoque integrado busca no solo fortalecer las habilidades matemáticas fundamentales, sino también preparar a las personas para aplicar estos conocimientos de manera práctica y efectiva en sus futuros roles profesionales y académicos, asegurando su capacidad para enfrentar con éxito los retos de un entorno en constante cambio.
     
     TabsC.color-acento-botones.mb-5
-      .py-4.py-md-5(titulo="Pensamiento numérico")
+      .py-4.py-99.py-md-5(titulo="Pensamiento numérico")
         .row
           .col-lg-4
             figure
@@ -51,7 +51,7 @@
               | #[b Ejemplo]: ¿Cuántas naranjas tiene un agricultor si cosechó 120 naranjas en 5 días, recolectando la misma cantidad cada día?
             li
               | #[b Aplicación]: se utiliza el pensamiento numérico para realizar la operación de división: 120 naranjas / 5 días = 24 naranjas por día.
-      .py-4.py-md-5(titulo="Pensamiento espacial")
+      .py-4.py-99.py-md-5(titulo="Pensamiento espacial")
         .row
           .col-lg-4
             figure
@@ -63,7 +63,7 @@
               | #[b Ejemplo]: determinar el área de un terreno rectangular para planificar la construcción de una casa.
             li
               | #[b Aplicación]: aquí se emplea el pensamiento espacial para calcular el área multiplicando la longitud por el ancho del terreno, y considerar cómo se dispondrán los espacios dentro de la construcción.
-      .py-4.py-md-5(titulo="Pensamiento métrico")
+      .py-4.py-99.py-md-5(titulo="Pensamiento métrico")
         .row
           .col-lg-4
             figure
@@ -75,7 +75,7 @@
               | #[b Ejemplo]: convertir 5 kilómetros a metros para comparar la distancia recorrida en diferentes unidades de medida.
             li
               | #[b Aplicación]: el pensamiento métrico permite realizar la conversión mediante la multiplicación: 5 km × 1.000 m/km = 5.000 metros.
-      .py-4.py-md-5(titulo="Pensamiento aleatorio")
+      .py-4.py-99.py-md-5(titulo="Pensamiento aleatorio")
         .row
           .col-lg-4
             figure
@@ -87,7 +87,7 @@
               | #[b Ejemplo]: calcular la probabilidad de obtener un número par al lanzar un dado.
             li
               | #[b Aplicación]: se utiliza el pensamiento aleatorio para identificar que hay 3 números pares (2, 4, 6) en un dado de 6 caras, lo que da una probabilidad de 3 / 6 o 1 / 2.
-      .py-4.py-md-5(titulo="Pensamiento variacional")
+      .py-4.py-99.py-md-5(titulo="Pensamiento variacional")
         .row
           .col-lg-4
             figure

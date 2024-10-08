@@ -111,7 +111,7 @@
         p Las variables cuantitativas son aquellas que toman valores numéricos y se pueden medir o contar. Estas variables se dividen en dos tipos:
     
     TabsC.color-acento-botones.mb-5
-      .py-4.py-md-5(titulo="Pensamiento numérico")
+      .py-4.py-99.py-md-5(titulo="Pensamiento numérico")
         .row
           .col-md-4
             figure
@@ -120,7 +120,7 @@
             h4
             p Son aquellas que solo pueden tomar un número finito o contable de valores. Ejemplos incluyen el número de hijos en una familia o el número de autos vendidos en un mes.
             p #[b -	Ejemplo:] el número de autos vendidos por una concesionaria cada mes es una variable cuantitativa discreta, ya que el número puede ser contado y toma valores enteros (por ejemplo, 3, 5, 8 autos).
-      .py-4.py-md-5(titulo="Pensamiento espacial")
+      .py-4.py-99.py-md-5(titulo="Pensamiento espacial")
         .row
           .col-md-4
             figure
