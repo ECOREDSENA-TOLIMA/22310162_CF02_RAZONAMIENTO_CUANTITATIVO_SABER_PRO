@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="64" viewBox="0 0 400 64">
+  <g id="img16" transform="translate(-735 -1283)">
+    <rect id="Rectángulo_379122" data-name="Rectángulo 379122" width="400" height="64" rx="12" transform="translate(735 1283)" fill="#c7e3d7"/>
+    <g id="Grupo_1074331" data-name="Grupo 1074331" transform="translate(892 1307)">
+      <g id="Grupo_1075340" data-name="Grupo 1075340">
+        <text id="cos_600_" data-name="cos (600) =" transform="translate(29 15)" fill="#12263f" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-39.977" y="0">cos (600) =</tspan></text>
+        <text id="h" transform="translate(88 4)" fill="#12263f" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-4.383" y="0">h</tspan></text>
+        <text id="_5" data-name="5" transform="translate(88 25.5)" fill="#12263f" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-4.492" y="0">5</tspan></text>
+      </g>
+      <path id="Trazado_642778" data-name="Trazado 642778" d="M98,5h19.5" transform="translate(-21 3.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

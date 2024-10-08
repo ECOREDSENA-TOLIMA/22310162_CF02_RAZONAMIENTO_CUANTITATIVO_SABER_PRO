@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1030" height="507.032" viewBox="0 0 1030 507.032">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.494" cy="-0.044" r="18.319" gradientTransform="translate(0.316 -0.041) scale(0.026 0.059)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.102"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e6f9ff"/>
+      <stop offset="1" stop-color="#e7edf9"/>
+    </linearGradient>
+  </defs>
+  <g id="img15" transform="translate(-285 -5402.668)">
+    <g id="hr-before-h2" transform="translate(389 5894)">
+      <rect id="Rectángulo_5131" data-name="Rectángulo 5131" width="819.999" height="15.7" transform="translate(0.001)" fill="url(#radial-gradient)"/>
+    </g>
+    <g id="Grupo_1075140" data-name="Grupo 1075140" transform="translate(0 -3763.746)">
+      <path id="Trazado_608976" data-name="Trazado 608976" d="M16,0h998c8.837,0,16,7.609,16,17V473.751c0,9.386-7.163,17-16,17H16c-8.837,0-16-7.609-16-17V17C0,7.609,7.163,0,16,0Z" transform="translate(285 9167)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Grupo_1075141" data-name="Grupo 1075141" transform="translate(0 1800.668)">
+      <g id="Trazado_642173" data-name="Trazado 642173" transform="translate(515 3637)" fill="#c7e3d7">
+        <path d="M 604.8801879882812 380.5 L 1.5 380.5 L 1.5 -6.256811618804932 L 604.8801879882812 380.5 Z" stroke="none"/>
+        <path d="M 3 -3.513641357421875 L 3 379 L 599.7604370117188 379 L 3 -3.513641357421875 M 0 -8.999969482421875 L 610 382 L 0 382 L 0 -8.999969482421875 Z" stroke="none" fill="#2d4587"/>
+      </g>
+      <g id="Grupo_1075338" data-name="Grupo 1075338">
+        <text id="h" transform="translate(495 3865.5)" fill="#12263f" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="24" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">h</tspan></text>
+        <text id="_4_cm" data-name="4 cm" transform="translate(692 4051)" fill="#12263f" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="24" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">4 cm</tspan></text>
+        <text id="_90" data-name="90" transform="translate(535 3998)" fill="#12263f" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="24" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">90</tspan></text>
+        <text id="β" transform="translate(1040 4004)" fill="#12263f" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="24" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">β</tspan></text>
+        <text id="_60_" data-name="60°" transform="translate(523 3685)" fill="#12263f" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="24" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">60°</tspan></text>
+        <text id="A" transform="translate(495 4042)" fill="#12263f" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="24" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">A</tspan></text>
+        <text id="B" transform="translate(1125 4042)" fill="#12263f" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="24" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">B</tspan></text>
+        <text id="C" transform="translate(495 3626)" fill="#12263f" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="24" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">C</tspan></text>
+        <text id="_5_cm" data-name="5 cm" transform="translate(778.094 3778.35) rotate(34)" fill="#12263f" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="24" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">5 cm</tspan></text>
+      </g>
+      <path id="Trazado_642174" data-name="Trazado 642174" d="M-4522-6482.667h68.667V-6424" transform="translate(5037 10440)" fill="none" stroke="#2d4587" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
