@@ -106,7 +106,7 @@
     .titulo-segundo.color-acento-contenido(data-aos="flip-up")
       #t_5_3.h2 5.3 Variables cuantitativas
     
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-12(data-aos="fade-right")
         p Las variables cuantitativas son aquellas que toman valores numéricos y se pueden medir o contar. Estas variables se dividen en dos tipos:
     

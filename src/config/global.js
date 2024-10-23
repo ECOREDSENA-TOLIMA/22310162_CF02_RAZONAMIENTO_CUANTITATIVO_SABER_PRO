@@ -230,21 +230,23 @@ export default {
       referencia:
         'Ministerio de Educación Icfes. (2015). Módulo de razonamiento cuantitativo Saber Pro 2015-1.',
       tipo: 'PDF',
-      link: 'Modulo_de_Razonamiento_cuantitativo_Saber_Pro_2015-1',
+      descarga:
+        '/downloads/Modulo_de_Razonamiento_cuantitativo_Saber_Pro_2015-1.pdf',
     },
     {
       tema: 'Fundamentos de matemáticas avanzadas',
       referencia:
         'Ministerio de Educación Icfes. (2015). Módulo de razonamiento cuantitativo Saber Pro 2015-2.',
       tipo: 'PDF',
-      link: 'Modulo_de_Razonamiento_cuantitativo_Saber_Pro_2015-2',
+      descarga:
+        '/downloads/Modulo_de_Razonamiento_cuantitativo_Saber_Pro_2015-2.pdf',
     },
     {
       tema: 'Aplicaciones prácticas en lógica y trigonometría',
       referencia:
         'Ministerio de Educación Icfes. (2015). Banco de preguntas de matemáticas.',
       tipo: 'PDF',
-      link: 'Banco_de_preguntas_de_matematicas',
+      descarga: '/downloads/Banco_de_preguntas_de_matematicas.pdf',
     },
   ],
   glosario: [

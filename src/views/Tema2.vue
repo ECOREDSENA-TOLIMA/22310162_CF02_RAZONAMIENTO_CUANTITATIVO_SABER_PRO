@@ -63,33 +63,33 @@
         figure
           img(src='@/assets/curso/temas/tema2/img2_1.png', alt='En la figura 1 se presentan las tablas de verdad, que es un esquema que permite determinar si una proposición compuesta es verdadera, falsa o variada.')
 
-
-    .row.bg--gradientBlue.mb-4
-      .col-12
-        .row.justify-content-center.align-items-center.mb-3(style="margin-inline:3em;")
-          .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
-            figure
-              img(src='@/assets/curso/temas/tema2/img3.png', alt='Imagen decorativa')
-          .col-lg-8.mb-lg-0.mb-4(data-aos="fade-right")
-            .row.justify-content-center.align-items-center
-              .col-lg-12
-                p Dónde:
-                ul.lista-ul
-                  li
-                    i.fas.fa-angle-right(style="color:#6FD9FB")
-                    | Negación: invierte el valor de verdad de una proposición.
-                  li
-                    i.fas.fa-angle-right(style="color:#6FD9FB")
-                    | Conjunción: es verdadera solo si ambas proposiciones son verdaderas.
-                  li
-                    i.fas.fa-angle-right(style="color:#6FD9FB")
-                    | Disyunción: es verdadera si al menos una de las proposiciones es verdadera.
-                  li
-                    i.fas.fa-angle-right(style="color:#6FD9FB")
-                    | Condicional: es falsa solo cuando la primera proposición es verdadera y la segunda es falsa.
-                  li
-                    i.fas.fa-angle-right(style="color:#6FD9FB")
-                    | Bicondicional: es verdadera si ambas proposiciones tienen el mismo valor de verdad.
+    .bg--gradientBlue.justify-content-center.align-items-center.p-5
+      .row
+        .col-12
+          .row.justify-content-center.align-items-center(style="margin-inline:3em;")
+            .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
+              figure
+                img(src='@/assets/curso/temas/tema2/img3.png', alt='Imagen decorativa')
+            .col-lg-8.mb-lg-0.mb-4(data-aos="fade-right")
+              .row.justify-content-center.align-items-center
+                .col-lg-12
+                  p Dónde:
+                  ul.lista-ul
+                    li
+                      i.fas.fa-angle-right(style="color:#6FD9FB")
+                      | Negación: invierte el valor de verdad de una proposición.
+                    li
+                      i.fas.fa-angle-right(style="color:#6FD9FB")
+                      | Conjunción: es verdadera solo si ambas proposiciones son verdaderas.
+                    li
+                      i.fas.fa-angle-right(style="color:#6FD9FB")
+                      | Disyunción: es verdadera si al menos una de las proposiciones es verdadera.
+                    li
+                      i.fas.fa-angle-right(style="color:#6FD9FB")
+                      | Condicional: es falsa solo cuando la primera proposición es verdadera y la segunda es falsa.
+                    li
+                      i.fas.fa-angle-right(style="color:#6FD9FB")
+                      | Bicondicional: es verdadera si ambas proposiciones tienen el mismo valor de verdad.
     .titulo-decorativo.my-4(data-aos="fade-up")
       .cont-figura
         img(src="@/assets/curso/temas/imgtitulo.svg")
@@ -219,6 +219,7 @@
           li 
             | #[b Razones trigonométricas]
         p Tales como el seno, coseno y tangente, son relaciones entre los lados del triángulo rectángulo que se utilizan para resolver problemas de cálculo de alturas, distancias y ángulos. Las funciones trigonométricas básicas y sus correspondientes inversas son:
+                
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-5.col-md-10.mb-lg-0.mb-4
         figure
@@ -269,7 +270,7 @@
                 .row.justify-content-center.align-items-center.mb-3
                   .col-lg-6
                     .tarjeta.p-3.divgeome
-                      p.mb-0.text-center #[b (a + bi) + (c + di) = (a + c) + (b + d)i]
+                      h4.mb-0.text-center #[b (a + bi) + (c + di) = (a + c) + (b + d)i]
               
           .tarjeta.color-secundario.p-4(titulo="Resta")            
             .row.justify-content-center.align-items-center
@@ -279,7 +280,7 @@
                 .row.justify-content-center.align-items-center.mb-3
                   .col-lg-6
                     .tarjeta.p-3.divgeome
-                      p.mb-0.text-center #[b (a + bi) − (c + di) = (a − c) + (b−d)i]
+                      h4.mb-0.text-center #[b (a + bi) − (c + di) = (a − c) + (b−d)i]
               
             
           .tarjeta.color-secundario.p-4(titulo="Multiplicación")           
@@ -290,7 +291,7 @@
                 .row.justify-content-center.align-items-center.mb-3
                   .col-lg-6
                     .tarjeta.p-3.divgeome
-                      p.mb-0.text-center #[b (a + bi) ⋅ (c + di) = (ac − bd) + (ad + bc)i]
+                      h4.mb-0.text-center #[b (a + bi) ⋅ (c + di) = (ac − bd) + (ad + bc)i]
             
           .tarjeta.color-secundario.p-4(titulo="División")           
             .row.justify-content-center.align-items-center
@@ -298,7 +299,7 @@
                 p La división de números complejos se efectúa multiplicando tanto el numerador como el denominador por el conjugado del denominador. Esto se explica con mayor detalle en la siguiente ecuación:
                 p 
                 .row.justify-content-center.align-items-center.mb-3
-                  .col-lg-6
+                  .col-lg-8
                     figure
                       img(src='@/assets/curso/temas/tema2/img21.svg', alt='Imagen decorativa')
 

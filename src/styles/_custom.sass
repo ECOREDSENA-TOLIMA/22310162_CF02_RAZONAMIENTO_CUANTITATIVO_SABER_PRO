@@ -90,8 +90,8 @@
 
 .bg--gradientBlue
   background-image: url(../assets/curso/temas/tema1/imgfondo.png) !important
-  //background: linear-gradient(0deg, rgb(229, 245, 252) 0%, rgba(255,255,252,1) 100%)
-  margin-inline: -3rem !important
+  background: linear-gradient(0deg, rgb(229, 245, 252) 0%, rgba(255,255,252,1) 100%)
+  margin-inline: -3rem !important  
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
 
@@ -462,3 +462,18 @@ sub, sup
 
 .slyder-f__btn
    color: #FFD87E
+
+//Formulas
+.fraction
+  display: inline-block
+  vertical-align: middle
+  margin: 0 0.2em 0.4ex
+  text-align: center
+  span
+    display: block
+    padding-top: 0.15em
+  
+.fraction span.fdn
+  border-top: thin solid black
+.fraction span.bar 
+  display: none

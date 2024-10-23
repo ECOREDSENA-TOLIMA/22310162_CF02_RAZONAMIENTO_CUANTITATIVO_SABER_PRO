@@ -97,22 +97,23 @@
     .row.justify-content-center.align-items-center
       .col-lg-12(data-aos="fade-right")
         p El razonamiento espacial se refiere a la capacidad de visualizar y manipular objetos y sus relaciones en el espacio. Incluye la habilidad de percibir cómo se verán los objetos cuando se muevan, giren o cambien de tamaño. Este tipo de razonamiento es crucial en campos como la arquitectura, el diseño, la ingeniería, la biología (al estudiar estructuras celulares o anatómicas), y en la resolución de problemas geométricos.
-
-    .row.bg--gradientBlue.mb-4
-      .col-10
-        .row.justify-content-center.align-items-center.mb-3(style="margin-inline:3em;")
-          .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
-            figure
-              img(src='@/assets/curso/temas/tema4/img7.png', alt='Imagen decorativa')
-          .col-lg-8.mb-lg-0.mb-4(data-aos="fade-right")
-            p Las habilidades espaciales permiten a las personas entender mapas, planos, diagramas y modelos tridimensionales. También facilitan la comprensión de conceptos geométricos y trigonómicos, como las transformaciones geométricas (rotación, traslación, etc.) y la comprensión de gráficos o representaciones de datos.
-            ul.lista-ul
-              li(data-aos="fade-right")
-                i.fas.fa-angle-right(style="color:#6FD9FB")
-                | #[b Ejemplo:] si se corta un cubo en diagonal, ¿cuál es la forma de la sección transversal?
-              li(data-aos="fade-right")
-                i.fas.fa-angle-right(style="color:#6FD9FB")
-                | #[b Solución:] la sección transversal de un cubo cortado en diagonal será un hexágono, lo que demuestra cómo una figura tridimensional puede dar lugar a una figura plana compleja dependiendo de la orientación del corte.
+    
+    .bg--gradientBlue.mb-4.p-4
+      .row
+        .col-10
+          .row.justify-content-center.align-items-center.mb-3(style="margin-inline:3em;")
+            .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
+              figure
+                img(src='@/assets/curso/temas/tema4/img7.png', alt='Imagen decorativa')
+            .col-lg-8.mb-lg-0.mb-4(data-aos="fade-right")
+              p Las habilidades espaciales permiten a las personas entender mapas, planos, diagramas y modelos tridimensionales. También facilitan la comprensión de conceptos geométricos y trigonómicos, como las transformaciones geométricas (rotación, traslación, etc.) y la comprensión de gráficos o representaciones de datos.
+              ul.lista-ul
+                li(data-aos="fade-right")
+                  i.fas.fa-angle-right(style="color:#6FD9FB")
+                  | #[b Ejemplo:] si se corta un cubo en diagonal, ¿cuál es la forma de la sección transversal?
+                li(data-aos="fade-right")
+                  i.fas.fa-angle-right(style="color:#6FD9FB")
+                  | #[b Solución:] la sección transversal de un cubo cortado en diagonal será un hexágono, lo que demuestra cómo una figura tridimensional puede dar lugar a una figura plana compleja dependiendo de la orientación del corte.
                  
 
 </template>

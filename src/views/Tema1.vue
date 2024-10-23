@@ -39,7 +39,7 @@
         p Este enfoque integrado busca no solo fortalecer las habilidades matemáticas fundamentales, sino también preparar a las personas para aplicar estos conocimientos de manera práctica y efectiva en sus futuros roles profesionales y académicos, asegurando su capacidad para enfrentar con éxito los retos de un entorno en constante cambio.
     
     TabsC.color-acento-botones.mb-5
-      .py-4.py-99.py-md-5(titulo="Pensamiento numérico")
+      .p-4.py-99.py-md-5(titulo="Pensamiento numérico")
         .row
           .col-lg-4
             figure
@@ -51,7 +51,7 @@
               | #[b Ejemplo]: ¿Cuántas naranjas tiene un agricultor si cosechó 120 naranjas en 5 días, recolectando la misma cantidad cada día?
             li
               | #[b Aplicación]: se utiliza el pensamiento numérico para realizar la operación de división: 120 naranjas / 5 días = 24 naranjas por día.
-      .py-4.py-99.py-md-5(titulo="Pensamiento espacial")
+      .p-4.py-99.py-md-5(titulo="Pensamiento espacial")
         .row
           .col-lg-4
             figure
@@ -63,7 +63,7 @@
               | #[b Ejemplo]: determinar el área de un terreno rectangular para planificar la construcción de una casa.
             li
               | #[b Aplicación]: aquí se emplea el pensamiento espacial para calcular el área multiplicando la longitud por el ancho del terreno, y considerar cómo se dispondrán los espacios dentro de la construcción.
-      .py-4.py-99.py-md-5(titulo="Pensamiento métrico")
+      .p-4.py-99.py-md-5(titulo="Pensamiento métrico")
         .row
           .col-lg-4
             figure
@@ -75,7 +75,7 @@
               | #[b Ejemplo]: convertir 5 kilómetros a metros para comparar la distancia recorrida en diferentes unidades de medida.
             li
               | #[b Aplicación]: el pensamiento métrico permite realizar la conversión mediante la multiplicación: 5 km × 1.000 m/km = 5.000 metros.
-      .py-4.py-99.py-md-5(titulo="Pensamiento aleatorio")
+      .p-4.py-99.py-md-5(titulo="Pensamiento aleatorio")
         .row
           .col-lg-4
             figure
@@ -87,12 +87,12 @@
               | #[b Ejemplo]: calcular la probabilidad de obtener un número par al lanzar un dado.
             li
               | #[b Aplicación]: se utiliza el pensamiento aleatorio para identificar que hay 3 números pares (2, 4, 6) en un dado de 6 caras, lo que da una probabilidad de 3 / 6 o 1 / 2.
-      .py-4.py-99.py-md-5(titulo="Pensamiento variacional")
+      .p-4.py-99.py-md-5(titulo="Pensamiento variacional")
         .row
           .col-lg-4
             figure
               img(src='@/assets/curso/temas/tema1/img7.png', alt='Imagen decorativa')
-          .col-md-8.mb-4.mb-md-0.p-4
+          .col-lg-8.mb-4.mb-md-0.p-4
             h4
             p Se centra en la variación y el cambio, fundamentado en el estudio de sistemas algebraicos y analíticos, esencial para la modelación matemática que se explora en la siguiente sección.
             li
@@ -115,31 +115,31 @@
     
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in")
       .tarjeta.bg-img-tarj.color-secundario.p-4
-        .row.justify-content-center.mb-3
+        .row.justify-content-center.mb-4
           .col-5
             img(src='@/assets/curso/temas/tema1/img9.svg' alt='AvatarTop')
         h4.text-center Comprensión del problema
         p.text-center Se identifica el problema en su contexto real y se determinan los elementos clave que lo conforman.
       .tarjeta.bg-img-tarj.color-secundario.p-4
-        .row.justify-content-center.mb-3
+        .row.justify-content-center.mb-4
           .col-5
             img(src='@/assets/curso/temas/tema1/img10.svg' alt='AvatarTop')
         h4.text-center Formulación del modelo
         p.text-center Se construye un modelo matemático utilizando ecuaciones, funciones, gráficas, o sistemas de ecuaciones, que represente la situación real.
       .tarjeta.bg-img-tarj.color-secundario.p-4
-        .row.justify-content-center.mb-3
+        .row.justify-content-center.mb-4
           .col-5
             img(src='@/assets/curso/temas/tema1/img11.svg' alt='AvatarTop')
         h4.text-center Análisis y resolución del modelo
         p.text-center Se aplica el conocimiento matemático para resolver el modelo y obtener resultados.
       .tarjeta.bg-img-tarj.color-secundario.p-4
-        .row.justify-content-center.mb-3
+        .row.justify-content-center.mb-4
           .col-5
             img(src='@/assets/curso/temas/tema1/img12.svg' alt='AvatarTop')
         h4.text-center Interpretación de los resultados
         p.text-center Se analiza si los resultados del modelo tienen sentido en el contexto original y se ajusta el modelo si es necesario.
       .tarjeta.bg-img-tarj.color-secundario.p-4
-        .row.justify-content-center.mb-3
+        .row.justify-content-center.mb-4
           .col-5
             img(src='@/assets/curso/temas/tema1/img13.svg' alt='AvatarTop')
         h4.text-center Validación y refinamiento
@@ -149,9 +149,9 @@
       .col-lg-12(data-aos="fade-right")
         p Con el fin de complementar la información, a continuación, se presentan ejemplos de modelación matemática aplicados a diferentes contextos para ilustrar cómo este enfoque permite comprender y resolver problemas del mundo real:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.mb-3
       .col-lg-6
-        .tarjeta-avatar-b.mb-5.h-100
+        .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/img14.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul
@@ -160,16 +160,16 @@
               p Modelar el crecimiento económico de un país usando funciones exponenciales para prever cómo ciertos cambios en la tasa de inversión o consumo afectarán el PIB en el futuro.
                   
       .col-lg-6
-        .tarjeta-avatar-b.mb-5.h-100
+        .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/img15.svg' alt='AvatarTop')          
           .tarjeta.tarjeta--azul
             .p-4
               h4 Ejemplo en física
               p Utilizar ecuaciones diferenciales para modelar el movimiento de un proyectil, tomando en cuenta variables como la resistencia del aire y la gravedad.
-              
+    .row.mb-4
       .col-lg-6
-        .tarjeta-avatar-b.mb-5.h-100
+        .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/img16.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul
@@ -177,7 +177,7 @@
               h4 Ejemplo en epidemiología
               p Desarrollar un modelo SIR (Susceptibles-Infectados-Recuperados) para predecir la propagación de una enfermedad en una población, y determinar la efectividad de las medidas de control como la vacunación o el distanciamiento social.
       .col-lg-6
-        .tarjeta-avatar-b.mb-5.h-100
+        .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema1/img16.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul

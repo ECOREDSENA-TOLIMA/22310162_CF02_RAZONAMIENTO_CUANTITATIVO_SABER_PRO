@@ -36,7 +36,7 @@
           li 
             | #[b Definición de proposiciones]
         p Tales como el seno, coseno y tangente, son relaciones entre los lados del triángulo rectángulo que se utilizan para resolver problemas de cálculo de alturas, distancias y ángulos. Las funciones trigonométricas básicas y sus correspondientes inversas son:
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-lg-0.mb-4(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema3/img2.png', alt='')
@@ -178,38 +178,38 @@
         img(src="@/assets/curso/temas/imgtitulo.svg")
       .cont-text 
         h3 Proceso de Solución
-    
-    .row.bg--gradientBlue.mb-4
-      .col-10
-        .row.justify-content-center.align-items-center.mb-3(style="margin-inline:3em;")
-          .col-lg-8.mb-lg-0.mb-4.order-lg-1.order-2(data-aos="fade-right")
-            .row.justify-content-center.align-items-center
-              .col-lg-10
-                ul.lista-ul
-                  li(data-aos="fade-right")
-                    i.fas.fa-angle-right(style="color:#6FD9FB")
-                    |#[b Intersección:] A ∩ B incluye los elementos que están en ambos conjuntos.
-                  .row.justify-content-center.align-items-center.mb-3
-                    .col-lg-8
-                      .tarjeta.p-1.divgeome
-                        p.mb-0.text-center #[b A ∩ B = {3,4}]
-                  li(data-aos="fade-right")
-                    i.fas.fa-angle-right(style="color:#6FD9FB")
-                    |#[b Unión:] A ⋃ B incluye todos los elementos que están en A o en B o en ambos.
-                  .row.justify-content-center.align-items-center.mb-3
-                    .col-lg-8
-                      .tarjeta.p-1.divgeome
-                        p.mb-0.text-center #[b A ⋃ B = {1, 2, 3, 4, 5, 6}]
-                  li(data-aos="fade-right")
-                    i.fas.fa-angle-right(style="color:#6FD9FB")
-                    |#[b Diferencia:] A − B incluye los elementos que están en A pero no en B.
-                  .row.justify-content-center.align-items-center.mb-3
-                    .col-lg-8
-                      .tarjeta.p-1.divgeome
-                        p.mb-0.text-center #[b A – B = {1, 2}]
-          .col-lg-4.col-8.mb-lg-0.mb-4.order-lg-1.order-1(data-aos="zoom-in")
-            figure
-              img(src='@/assets/curso/temas/tema3/img4.png', alt='Imagen decorativa')
+    .bg--gradientBlue.justify-content-center.align-items-center.p-4
+      .row
+        .col-10
+          .row.justify-content-center.align-items-center.mb-3(style="margin-inline:3em;")
+            .col-lg-8.mb-lg-0.mb-4.order-lg-1.order-2(data-aos="fade-right")
+              .row.justify-content-center.align-items-center
+                .col-lg-10
+                  ul.lista-ul
+                    li(data-aos="fade-right")
+                      i.fas.fa-angle-right(style="color:#6FD9FB")
+                      |#[b Intersección:] A ∩ B incluye los elementos que están en ambos conjuntos.
+                    .row.justify-content-center.align-items-center.mb-3
+                      .col-lg-8
+                        .tarjeta.p-1.divgeome
+                          p.mb-0.text-center #[b A ∩ B = {3,4}]
+                    li(data-aos="fade-right")
+                      i.fas.fa-angle-right(style="color:#6FD9FB")
+                      |#[b Unión:] A ⋃ B incluye todos los elementos que están en A o en B o en ambos.
+                    .row.justify-content-center.align-items-center.mb-3
+                      .col-lg-8
+                        .tarjeta.p-1.divgeome
+                          p.mb-0.text-center #[b A ⋃ B = {1, 2, 3, 4, 5, 6}]
+                    li(data-aos="fade-right")
+                      i.fas.fa-angle-right(style="color:#6FD9FB")
+                      |#[b Diferencia:] A − B incluye los elementos que están en A pero no en B.
+                    .row.justify-content-center.align-items-center.mb-3
+                      .col-lg-8
+                        .tarjeta.p-1.divgeome
+                          p.mb-0.text-center #[b A – B = {1, 2}]
+            .col-lg-4.col-8.mb-lg-0.mb-4.order-lg-1.order-1(data-aos="zoom-in")
+              figure
+                img(src='@/assets/curso/temas/tema3/img4.png', alt='Imagen decorativa')
 
     separador 
 
@@ -286,12 +286,12 @@
         figure.mb-3
           img(src='@/assets/curso/temas/tema3/img13.svg', alt='Imagen decorativa')
         h4 Paso 2
-        p Estando ahí, mide la visual entre su casa y la rampa, resultando ser de 60°
+        p Estando ahí, mide la visual entre su casa y la rampa, resultando ser de 60°.
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
         figure.mb-3
           img(src='@/assets/curso/temas/tema3/img14.svg', alt='Imagen decorativa')
         h4 Paso 3
-        p Calcular la altura de la casa y el ángulo que hay entre la rampa y el suelo
+        p Calcular la altura de la casa y el ángulo que hay entre la rampa y el suelo.
     
     .titulo-decorativo.my-4(data-aos="fade-up")
       .cont-figura
@@ -345,35 +345,36 @@
       .cont-text 
         h3 Proceso de Solución
     
-    .row.bg--gradientBlue.mb-4
-      .col-10
-        .row.justify-content-center.align-items-center.mb-3(style="margin-inline:3em;")
-          .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
-            figure
-              img(src='@/assets/curso/temas/tema3/img17.svg', alt='Imagen decorativa')
-          .col-lg-8.mb-lg-0.mb-4(data-aos="fade-right")
-            .row.justify-content-center.align-items-center
-              .col-lg-10
-                ul.lista-ul
-                  li(data-aos="fade-right")
-                    i.fas.fa-angle-right(style="color:#6FD9FB")
-                    | #[b a Cálculo del módulo:]
-                  .row.justify-content-center.align-items-center.mb-3
-                    .col-lg-8
-                      figure
-                        img(src='@/assets/curso/temas/tema3/img18.svg', alt='Imagen decorativa')
-                  li(data-aos="fade-right")
-                    i.fas.fa-angle-right(style="color:#6FD9FB")
-                    | #[b b	Cálculo del argumento:]
-                    li
-                      i
-                      | Argumento = tan^(-1) (4/3)
-                    li
-                      i
-                      | Calculando el valor: argumento ≈ 53.13°
-                  li(data-aos="fade-right")
-                    i.fas.fa-angle-right(style="color:#6FD9FB")
-                    |#[b c	Respuesta:] el módulo del número complejo z = 3 + 4i es 5 y su argumento es aproximadamente 53.13°.
+    .row.bg--gradientBlue.mb-4.p-4
+      .row
+        .col-10
+          .row.justify-content-center.align-items-center.mb-3(style="margin-inline:3em;")
+            .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
+              figure
+                img(src='@/assets/curso/temas/tema3/img17.svg', alt='Imagen decorativa')
+            .col-lg-8.mb-lg-0.mb-4(data-aos="fade-right")
+              .row.justify-content-center.align-items-center
+                .col-lg-10
+                  ul.lista-ul
+                    li(data-aos="fade-right")
+                      i.fas.fa-angle-right(style="color:#6FD9FB")
+                      | #[b a Cálculo del módulo:]
+                    .row.justify-content-center.align-items-center.mb-3
+                      .col-lg-8
+                        figure
+                          img(src='@/assets/curso/temas/tema3/img18.svg', alt='Imagen decorativa')
+                    li(data-aos="fade-right")
+                      i.fas.fa-angle-right(style="color:#6FD9FB")
+                      | #[b b	Cálculo del argumento:]
+                      li
+                        i
+                        | Argumento = tan^(-1) (4/3)
+                      li
+                        i
+                        | Calculando el valor: argumento ≈ 53.13°
+                    li(data-aos="fade-right")
+                      i.fas.fa-angle-right(style="color:#6FD9FB")
+                      |#[b c	Respuesta:] el módulo del número complejo z = 3 + 4i es 5 y su argumento es aproximadamente 53.13°.
                  
     separador 
 
