@@ -57,6 +57,9 @@
   100%
     transform: scale(1.2)
 
+.banner-interno__titulo__icono i
+  color: #11462E !important
+    
 .tarjeta.color-primario
   background-color: #C7E3D7
 
@@ -413,6 +416,10 @@ i.fas.fa-calculator
 .divformu
   background-color: #C7E3D7
   color: black !important
+  font-weight: bold
+  text-align: center
+  font-style: italic
+  
 li b
   color: #11462E
 
@@ -449,6 +456,9 @@ sub, sup
 .divgeome
   background-color: #ffffff
   color: black !important
+  font-weight: bold
+  text-align: center
+  font-style: italic
 
 //Tema 7
 .tarje-azul
@@ -466,14 +476,43 @@ sub, sup
 //Formulas
 .fraction
   display: inline-block
-  vertical-align: middle
+  vertical-align: middle 
   margin: 0 0.2em 0.4ex
   text-align: center
-  span
-    display: block
-    padding-top: 0.15em
-  
+
+.fraction > span
+  display: block
+  padding-top: 0.15em
+
 .fraction span.fdn
-  border-top: thin solid black
-.fraction span.bar 
+  border-top: thin solid #12263F
+
+.fraction span.bar
   display: none
+
+//Radical
+.radical
+  position: relative
+  font-size: 1.6em
+  vertical-align: middle
+
+.n-root
+  position: absolute
+  top: -0.333em
+  left: 0.333em
+  font-size: 45%
+
+.radicand
+  padding: 0.25em 0.25em
+  border-top: thin #12263F solid
+
+.tabs-c__header
+  margin-bottom: 0
+.tabs-c.color-acento-botones .tabs-c__tab--active
+   font-weight: 700
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
+  display: flex
+.lista-ul--color li > i:first-of-type
+  color:#196442
+.eq-c
+  color: black !important

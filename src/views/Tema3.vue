@@ -244,27 +244,109 @@
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-5.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema3/img6.svg', alt='Imagen decorativa')
+        .tarjeta.p-3.divformu
+          <div class="eq-c">
+            <span>sin &#952; = </span>
+            <div class="fraction">
+              <span class="fup">Cateto horizontal</span>
+              <span class="bar">/</span>
+              <span class="fdn">Hipotenusa</span>
+            </div>
+            <span> = </span>
+            <div class="fraction">
+              <span class="fup">4</span>
+              <span class="bar">/</span>
+              <span class="fdn">5</span>
+            </div>
+            <span> = 0.8</span>
+          </div>
       .col-lg-5.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema3/img7.svg', alt='Imagen decorativa')
+        .tarjeta.p-3.divformu
+          <div class="eq-c">
+            <span>cos &#952; = </span>
+            <div class="fraction">
+              <span class="fup">Cateto vertical</span>
+              <span class="bar">/</span>
+              <span class="fdn">Hipotenusa</span>
+            </div>
+            <span> = </span>
+            <div class="fraction">
+              <span class="fup">3</span>
+              <span class="bar">/</span>
+              <span class="fdn">5</span>
+            </div>
+            <span> = 0.6</span>
+          </div>
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-5.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema3/img8.svg', alt='Imagen decorativa')
+        .tarjeta.p-3.divformu
+          <div class="eq-c">
+            <span>tan &#952; = </span>
+            <div class="fraction">
+              <span class="fup">Cateto horizontal</span>
+              <span class="bar">/</span>
+              <span class="fdn">Cateto vertical</span>
+            </div>
+            <span> = </span>
+            <div class="fraction">
+              <span class="fup">4</span>
+              <span class="bar">/</span>
+              <span class="fdn">3</span>
+            </div>
+            <span> = 1.33</span>
+          </div>
       .col-lg-5.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema3/img9.svg', alt='Imagen decorativa')
+        .tarjeta.p-3.divformu
+          <div class="eq-c">
+            <span>csc &#952; = </span>
+            <div class="fraction">
+              <span class="fup">Hipotenusa</span>
+              <span class="bar">/</span>
+              <span class="fdn">Cateto horizontal</span>
+            </div>
+            <span> = </span>
+            <div class="fraction">
+              <span class="fup">5</span>
+              <span class="bar">/</span>
+              <span class="fdn">4</span>
+            </div>
+            <span> = 1.25</span>
+          </div>
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-5.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema3/img10.svg', alt='Imagen decorativa')
+        .tarjeta.p-3.divformu
+          <div class="eq-c">
+            <span>sec &#952; = </span>
+            <div class="fraction">
+              <span class="fup">Hipotenusa</span>
+              <span class="bar">/</span>
+              <span class="fdn">Cateto vertical</span>
+            </div>
+            <span> = </span>
+            <div class="fraction">
+              <span class="fup">5</span>
+              <span class="bar">/</span>
+              <span class="fdn">3</span>
+            </div>
+            <span> = 1.67</span>
+          </div>
       .col-lg-5.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema3/img11.svg', alt='Imagen decorativa')
-
-
+        .tarjeta.p-3.divformu
+          <div class="eq-c">
+            <span>sin &#952; = </span>
+            <div class="fraction">
+              <span class="fup">Cateto vertical</span>
+              <span class="bar">/</span>
+              <span class="fdn">Cateto horizontal</span>
+            </div>
+            <span> = </span>
+            <div class="fraction">
+              <span class="fup">3</span>
+              <span class="bar">/</span>
+              <span class="fdn">4</span>
+            </div>
+            <span> = 0.75</span>
+          </div>
 
     separador 
 
@@ -320,16 +402,24 @@
         p Se nombra la altura de la casa h y β al ángulo que hay entre la rampa y el suelo. Los ángulos internos de todo triángulo es 1800. Ya con esta información, se obtiene la siguiente ecuación, 90° + 60° + β = 180° → β = 30°. Se calcula la altura, de la siguiente manera:
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-4(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/temas/tema3/img16.svg', alt='')
+        .tarjeta.p-2.divformu
+          <div class="eq-c">
+            <span>cos (600) = </span>
+            <div class="fraction">
+              <span class="fup">h</span>
+              <span class="bar">/</span>
+              <span class="fdn">5</span>
+            </div>
+          </div>
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12(data-aos="fade-right")
         p Despejando h de la ecuación y se obtiene que la altura de la casa de Carlos es 2.5 m.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
-        .tarjeta.p-3.divformu
-          p.mb-1.text-center #[b h=2.5 m]
-
+        .tarjeta.p-4.divformu
+          <div class="eq-c">
+            <span>h = 2.5 m</span>
+          </div>
     separador 
 
     .titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -361,8 +451,10 @@
                       | #[b a Cálculo del módulo:]
                     .row.justify-content-center.align-items-center.mb-3
                       .col-lg-8
-                        figure
-                          img(src='@/assets/curso/temas/tema3/img18.svg', alt='Imagen decorativa')
+                        .tarjeta.p-3.divgeome
+                          <div class="eq-c" style="margin-bottom:5px;">
+                            <span> |z| = </span><span class="radical"><span class="n-root"></span>&radic;</span><span class="radicand">3<sup>2</sup> + 4<sup>2</sup></span><span> = </span><span class="radical"><span class="n-root"></span>&radic;</span><span class="radicand">9+16</span><span> = </span><span class="radical"><span class="n-root"></span>&radic;</span><span class="radicand">25</span><span> = </span> 5
+                          </div>
                     li(data-aos="fade-right")
                       i.fas.fa-angle-right(style="color:#6FD9FB")
                       | #[b b	Cálculo del argumento:]
@@ -374,7 +466,7 @@
                         | Calculando el valor: argumento ≈ 53.13°
                     li(data-aos="fade-right")
                       i.fas.fa-angle-right(style="color:#6FD9FB")
-                      |#[b c	Respuesta:] el módulo del número complejo z = 3 + 4i es 5 y su argumento es aproximadamente 53.13°.
+                      p.mb-0 #[b c	Respuesta:] el módulo del número complejo z = 3 + 4i es 5 y su argumento es aproximadamente 53.13°.
                  
     separador 
 

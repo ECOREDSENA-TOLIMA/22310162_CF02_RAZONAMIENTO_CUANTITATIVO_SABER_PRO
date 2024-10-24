@@ -110,10 +110,10 @@
               ul.lista-ul
                 li(data-aos="fade-right")
                   i.fas.fa-angle-right(style="color:#6FD9FB")
-                  | #[b Ejemplo:] si se corta un cubo en diagonal, ¿cuál es la forma de la sección transversal?
+                  p-mb-0 #[b Ejemplo:] si se corta un cubo en diagonal, ¿cuál es la forma de la sección transversal?
                 li(data-aos="fade-right")
                   i.fas.fa-angle-right(style="color:#6FD9FB")
-                  | #[b Solución:] la sección transversal de un cubo cortado en diagonal será un hexágono, lo que demuestra cómo una figura tridimensional puede dar lugar a una figura plana compleja dependiendo de la orientación del corte.
+                  p-mb-0 #[b Solución:] la sección transversal de un cubo cortado en diagonal será un hexágono, lo que demuestra cómo una figura tridimensional puede dar lugar a una figura plana compleja dependiendo de la orientación del corte.
                  
 
 </template>

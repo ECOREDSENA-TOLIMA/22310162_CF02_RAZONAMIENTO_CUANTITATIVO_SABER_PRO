@@ -222,25 +222,103 @@
                 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-5.col-md-10.mb-lg-0.mb-4
-        figure
-          img(src='@/assets/curso/temas/tema2/img14.svg', alt='')
+        .tarjeta.p-3.divformu
+          <div class="eq-c">
+            <span>sin &#952; =</span>
+            <div class="fraction">
+              <span class="fup">Cateto horizontal</span>
+              <span class="bar">/</span>
+              <span class="fdn">Hipotenusa</span>
+            </div>
+            <span>=</span>
+            <div class="fraction">
+              <span class="fup">a</span>
+              <span class="bar">/</span>
+              <span class="fdn">c</span>
+            </div>
+          </div>
       .col-lg-5.col-md-10.mb-lg-0.mb-4
-        figure
-          img(src='@/assets/curso/temas/tema2/img15.svg', alt='')
+        .tarjeta.p-3.divformu
+          <div class="eq-c">
+            <span>cos &#952; =</span>
+            <div class="fraction">
+              <span class="fup">Cateto vertical</span>
+              <span class="bar">/</span>
+              <span class="fdn">Hipotenusa</span>
+            </div>
+            <span>=</span>
+            <div class="fraction">
+              <span class="fup">a</span>
+              <span class="bar">/</span>
+              <span class="fdn">c</span>
+            </div>
+          </div>
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-5.col-md-10.mb-lg-0.mb-4
-        figure
-          img(src='@/assets/curso/temas/tema2/img16.svg', alt='')
+        .tarjeta.p-3.divformu
+          <div class="eq-c">
+            <span>tan &#952; =</span>
+            <div class="fraction">
+              <span class="fup">Cateto horizontal</span>
+              <span class="bar">/</span>
+              <span class="fdn">Cateto vertical</span>
+            </div>
+            <span>=</span>
+            <div class="fraction">
+              <span class="fup">a</span>
+              <span class="bar">/</span>
+              <span class="fdn">c</span>
+            </div>
+          </div>
       .col-lg-5.col-md-10.mb-lg-0.mb-4
-        figure
-          img(src='@/assets/curso/temas/tema2/img17.svg', alt='')
+        .tarjeta.p-3.divformu
+          <div class="eq-c">
+            <span>csc &#952; =</span>
+            <div class="fraction">
+              <span class="fup">Hipotenusa</span>
+              <span class="bar">/</span>
+              <span class="fdn">Cateto horizontal</span>
+            </div>
+            <span>=</span>
+            <div class="fraction">
+              <span class="fup">c</span>
+              <span class="bar">/</span>
+              <span class="fdn">b</span>
+            </div>
+          </div>
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-5.col-md-10.mb-lg-0.mb-4
-        figure
-          img(src='@/assets/curso/temas/tema2/img18.svg', alt='')
+        .tarjeta.p-3.divformu
+          <div class="eq-c">
+            <span>sec &#952; =</span>
+            <div class="fraction">
+              <span class="fup">Hipotenusa</span>
+              <span class="bar">/</span>
+              <span class="fdn">Cateto vertical</span>
+            </div>
+            <span>=</span>
+            <div class="fraction">
+              <span class="fup">c</span>
+              <span class="bar">/</span>
+              <span class="fdn">a</span>
+            </div>
+          </div>
       .col-lg-5.col-md-10.mb-lg-0.mb-4
-        figure
-          img(src='@/assets/curso/temas/tema2/img19.svg', alt='')
+        .tarjeta.p-3.divformu
+          <div class="eq-c">
+            <span>sin &#952; =</span>
+            <div class="fraction">
+              <span class="fup">Cateto vertical</span>
+              <span class="bar">/</span>
+              <span class="fdn">Cateto vertical</span>
+            </div>
+            <span>=</span>
+            <div class="fraction">
+              <span class="fup">a</span>
+              <span class="bar">/</span>
+              <span class="fdn">b</span>
+            </div>
+          </div>
 
     separador 
 
@@ -300,8 +378,38 @@
                 p 
                 .row.justify-content-center.align-items-center.mb-3
                   .col-lg-8
-                    figure
-                      img(src='@/assets/curso/temas/tema2/img21.svg', alt='Imagen decorativa')
+                    .tarjeta.p-3.divgeome
+                      <div class="eq-c">
+                        <div class="fraction">
+                          <span class="fup"style="color:#000000">a + bi</span>
+                          <span class="bar">/</span>
+                          <span class="fdn"style="color:#000000">c + di</span>
+                        </div>
+                        <span style="color:#000000">=</span>
+                        <div class="fraction">
+                          <span class="fup"style="color:#000000">(a + bi)(c - di)</span>
+                          <span class="bar">/</span>
+                          <span class="fdn"style="color:#000000">(c + di)(c - di)</span>
+                        </div>
+                        <span style="color:#000000">=</span>
+                        <div class="fraction">
+                          <span class="fup"style="color:#000000">(ac + bd)(bc - ad)</span>
+                          <span class="bar">/</span>
+                          <span class="fdn"style="color:#000000">c<sup>2</sup> + d<sup>2</sup></span>
+                        </div>
+                        <span style="color:#000000">=</span>
+                        <div class="fraction">
+                          <span class="fup"style="color:#000000">ac + bd</span>
+                          <span class="bar">/</span>
+                          <span class="fdn"style="color:#000000">c<sup>2</sup> + d<sup>2</sup></span>
+                        </div>
+                        <span style="color:#000000">+</span>
+                        <div class="fraction">
+                          <span class="fup"style="color:#000000">bc</span>
+                          <span class="bar">/</span>
+                          <span class="fdn"style="color:#000000">c<sup>2</sup></span>
+                        </div>
+                      </div>
 
     separador 
 

@@ -29,9 +29,9 @@
         figure
           img(src='@/assets/curso/temas/tema5/img2.svg', alt='Imagen decorativa')
     
-    .row.justify-content-center.align-items-center.mb-3.mt-5
+    .row.mb-4
       .col-lg-6
-        .tarjeta-avatar-b.mb-5.h-100
+        .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema5/img3.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul
@@ -40,7 +40,7 @@
               p ¿Cuántas formas diferentes hay de ordenar tres libros de un estante que contiene cinco libros diferentes?
                   
       .col-lg-6
-        .tarjeta-avatar-b.mb-5.h-100
+        .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema5/img4.svg' alt='AvatarTop')          
           .tarjeta.tarjeta--azul
@@ -50,11 +50,11 @@
               p #[b P(5, 3) = 5! / (5 − 3)! = 5 × 4 × 3 = 60 maneras.]
     
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-8
+      .col-lg-12
         p El muestreo es un proceso estadístico mediante el cual se selecciona una parte representativa de una población más grande. Existen varios tipos de muestreo, como el muestreo aleatorio simple, el muestreo estratificado y el muestreo sistemático.
-    .row.justify-content-center.align-items-center.mb-3.mt-5
+    .row
       .col-lg-6
-        .tarjeta-avatar-b.mb-5.h-100
+        .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema5/img5.svg' alt='AvatarTop')          
           .tarjeta.tarjeta--azul
@@ -62,7 +62,7 @@
               h4 Ejemplo de muestreo
               p En una encuesta de 100 aprendices del Sena, se elige una muestra de 10 aprendices para participar en un estudio de hábitos alimenticios.
       .col-lg-6
-        .tarjeta-avatar-b.mb-5.h-100
+        .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema5/img6.svg' alt='AvatarTop')          
           .tarjeta.tarjeta--azul
@@ -119,7 +119,10 @@
           .col-md-8.mb-4.mb-md-0.p-4
             h4
             p Son aquellas que solo pueden tomar un número finito o contable de valores. Ejemplos incluyen el número de hijos en una familia o el número de autos vendidos en un mes.
-            p #[b -	Ejemplo:] el número de autos vendidos por una concesionaria cada mes es una variable cuantitativa discreta, ya que el número puede ser contado y toma valores enteros (por ejemplo, 3, 5, 8 autos).
+            ul.lista-ul--color
+              li(style="margin-bottom: 2px")
+                i.fas.fa-check-circle
+                p.mb-0 #[b Ejemplo:] el número de autos vendidos por una concesionaria cada mes es una variable cuantitativa discreta, ya que el número puede ser contado y toma valores enteros (por ejemplo, 3, 5, 8 autos).
       .py-4.py-99.py-md-5(titulo="Pensamiento espacial")
         .row
           .col-md-4
@@ -128,7 +131,10 @@
           .col-md-8.mb-4.mb-md-0.p-4
             h4
             p Son aquellas que pueden tomar cualquier valor dentro de un rango determinado. Ejemplos de variables continuas incluyen el peso, la altura y el tiempo.
-            p #[b -	Ejemplo:] el tiempo que tarda un corredor en completar una maratón es una variable cuantitativa continua, ya que puede medirse con precisión y tomar cualquier valor dentro de un intervalo (por ejemplo, 3 horas, 3 horas y 10 minutos, o 3 horas y 10.5 minutos).
+            ul.lista-ul--color
+              li(style="margin-bottom: 2px")
+                i.fas.fa-check-circle
+                p.mb-0 #[b Ejemplo:] el tiempo que tarda un corredor en completar una maratón es una variable cuantitativa continua, ya que puede medirse con precisión y tomar cualquier valor dentro de un intervalo (por ejemplo, 3 horas, 3 horas y 10 minutos, o 3 horas y 10.5 minutos).
       
     .row.justify-content-center.align-items-center
       .col-lg-12(data-aos="fade-right")

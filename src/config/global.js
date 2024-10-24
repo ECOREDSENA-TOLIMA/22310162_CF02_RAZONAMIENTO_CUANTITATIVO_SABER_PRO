@@ -202,7 +202,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/material.pdf',
+        download: 'downloads/CFA_02_22310162_DU.zip',
       },
       {
         icono: 'fas fa-download',

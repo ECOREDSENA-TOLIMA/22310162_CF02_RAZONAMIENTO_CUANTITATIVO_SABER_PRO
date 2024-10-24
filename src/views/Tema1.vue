@@ -47,10 +47,16 @@
           .col-lg-8.mb-4.mb-md-0.p-4
             h4
             p Relacionado con los números y sus estructuras, abarca operaciones fundamentales como suma, multiplicación, resta y división. Este pensamiento facilita una comprensión profunda de las propiedades y aplicaciones de los números.
-            li
-              | #[b Ejemplo]: ¿Cuántas naranjas tiene un agricultor si cosechó 120 naranjas en 5 días, recolectando la misma cantidad cada día?
-            li
-              | #[b Aplicación]: se utiliza el pensamiento numérico para realizar la operación de división: 120 naranjas / 5 días = 24 naranjas por día.
+            ul.lista-ul--color
+              li(style="margin-bottom: 2px")
+                i.fas.fa-check-circle
+                p.mb-0 #[b Ejemplo]: ¿Cuántas naranjas tiene un agricultor si cosechó 120 naranjas en 5 días, recolectando la misma cantidad cada día?
+              li(style="margin-bottom: 2px")
+                i.fas.fa-check-circle
+                p.mb-0 #[b Ejemplo]: ¿Cuántas naranjas tiene un agricultor si cosechó 120 naranjas en 5 días, recolectando la misma cantidad cada día?
+              li(style="margin-bottom: 2px")
+                i.fas.fa-check-circle
+                p.mb-0 #[b Aplicación]: se utiliza el pensamiento numérico para realizar la operación de división: 120 naranjas / 5 días = 24 naranjas por día.
       .p-4.py-99.py-md-5(titulo="Pensamiento espacial")
         .row
           .col-lg-4
@@ -59,10 +65,13 @@
           .col-lg-8.mb-4.mb-md-0.p-4
             h4
             p Se enfoca en la representación y relación de objetos en el espacio, utilizando la geometría para analizar y entender las configuraciones espaciales.
-            li
-              | #[b Ejemplo]: determinar el área de un terreno rectangular para planificar la construcción de una casa.
-            li
-              | #[b Aplicación]: aquí se emplea el pensamiento espacial para calcular el área multiplicando la longitud por el ancho del terreno, y considerar cómo se dispondrán los espacios dentro de la construcción.
+            ul.lista-ul--color
+              li(style="margin-bottom: 2px")
+                i.fas.fa-check-circle
+                p.mb-0 #[b Ejemplo]: determinar el área de un terreno rectangular para planificar la construcción de una casa.
+              li(style="margin-bottom: 2px")
+                i.fas.fa-check-circle
+                p.mb-0 #[b Aplicación]: aquí se emplea el pensamiento espacial para calcular el área multiplicando la longitud por el ancho del terreno, y considerar cómo se dispondrán los espacios dentro de la construcción.
       .p-4.py-99.py-md-5(titulo="Pensamiento métrico")
         .row
           .col-lg-4
@@ -71,10 +80,13 @@
           .col-lg-8.mb-4.mb-md-0.p-4
             h4
             p Se ocupa de la medición y manejo de equivalencias en los sistemas de medida, siendo crucial para la construcción y transformación de objetos en el entorno.
-            li
-              | #[b Ejemplo]: convertir 5 kilómetros a metros para comparar la distancia recorrida en diferentes unidades de medida.
-            li
-              | #[b Aplicación]: el pensamiento métrico permite realizar la conversión mediante la multiplicación: 5 km × 1.000 m/km = 5.000 metros.
+            ul.lista-ul--color
+              li(style="margin-bottom: 2px")
+                i.fas.fa-check-circle
+                p.mb-0 #[b Ejemplo]: convertir 5 kilómetros a metros para comparar la distancia recorrida en diferentes unidades de medida.
+              li(style="margin-bottom: 2px")
+                i.fas.fa-check-circle
+                p.mb-0 #[b Aplicación]: el pensamiento métrico permite realizar la conversión mediante la multiplicación: 5 km × 1.000 m/km = 5.000 metros.
       .p-4.py-99.py-md-5(titulo="Pensamiento aleatorio")
         .row
           .col-lg-4
@@ -83,10 +95,14 @@
           .col-lg-8.mb-4.mb-md-0.p-4
             h4
             p Aborda situaciones de incertidumbre, azar y riesgo, empleando estructuras matemáticas para obtener información precisa en contextos de ambigüedad.
-            li
-              | #[b Ejemplo]: calcular la probabilidad de obtener un número par al lanzar un dado.
-            li
-              | #[b Aplicación]: se utiliza el pensamiento aleatorio para identificar que hay 3 números pares (2, 4, 6) en un dado de 6 caras, lo que da una probabilidad de 3 / 6 o 1 / 2.
+            ul.lista-ul--color
+              li(style="margin-bottom: 2px")
+                i.fas.fa-check-circle
+                p.mb-0 #[b Ejemplo]: calcular la probabilidad de obtener un número par al lanzar un dado.
+            
+              li(style="margin-bottom: 2px")
+                i.fas.fa-check-circle
+                p.mb-0 #[b Aplicación]: se utiliza el pensamiento aleatorio para identificar que hay 3 números pares (2, 4, 6) en un dado de 6 caras, lo que da una probabilidad de 3 / 6 o 1 / 2.
       .p-4.py-99.py-md-5(titulo="Pensamiento variacional")
         .row
           .col-lg-4
@@ -95,10 +111,13 @@
           .col-lg-8.mb-4.mb-md-0.p-4
             h4
             p Se centra en la variación y el cambio, fundamentado en el estudio de sistemas algebraicos y analíticos, esencial para la modelación matemática que se explora en la siguiente sección.
-            li
-              | #[b Ejemplo]: analizar cómo cambia el área de un círculo al aumentar el radio.
-            li
-              | #[b Aplicación]: el pensamiento variacional se aplica para comprender que, al duplicar el radio, el área (πr²) se cuadruplica, lo que muestra la relación entre las variables y cómo una afecta a la otra.
+            ul.lista-ul--color
+              li(style="margin-bottom: 2px")
+                i.fas.fa-check-circle
+                p.mb-0 #[b Ejemplo]: analizar cómo cambia el área de un círculo al aumentar el radio.
+              li(style="margin-bottom: 2px")
+                i.fas.fa-check-circle
+                p.mb-0 #[b Aplicación]: el pensamiento variacional se aplica para comprender que, al duplicar el radio, el área (πr²) se cuadruplica, lo que muestra la relación entre las variables y cómo una afecta a la otra.
     separador 
 
     .titulo-segundo.color-acento-contenido(data-aos="flip-up")
