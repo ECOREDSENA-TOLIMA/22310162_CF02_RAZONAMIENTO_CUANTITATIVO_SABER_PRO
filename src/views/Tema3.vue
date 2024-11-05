@@ -70,7 +70,7 @@
     
     .titulo-sexto.color-acento-contenido.offset-1(data-aos="zoom-in")
       h5 Tabla 1.
-      span  #[i  Tablas de verdad]
+      span  #[i  Tabla de verdad]
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10(data-aos="fade-right")
