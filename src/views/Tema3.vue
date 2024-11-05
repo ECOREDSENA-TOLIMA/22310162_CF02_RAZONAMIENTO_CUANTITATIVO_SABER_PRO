@@ -222,15 +222,15 @@
     
     .titulo-sexto.color-acento-contenido.offset-1(data-aos="zoom-in")
       h5 Figura 3.
-      span  #[i Ejemplo de triangulo rectángulo]
+      span  #[i Ejemplo de triángulo rectángulo]
 
     .row.justify-content-center.mb-5
       .col-md-10.desktop(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/temas/tema3/img5.svg', alt='En la figura 3 se presenta un ejemplo de triangulo rectángulo, con el fin de determinar las razones trigonométricas.')
+          img(src='@/assets/curso/temas/tema3/img5.svg', alt='En la figura 3 se presenta un ejemplo de triángulo rectángulo, con el fin de determinar las razones trigonométricas.')
       .col-md-6.movil(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/temas/tema3/img5_1.svg', alt='En la figura 3 se presenta un ejemplo de triangulo rectángulo, con el fin de determinar las razones trigonométricas.')
+          img(src='@/assets/curso/temas/tema3/img5_1.svg', alt='En la figura 3 se presenta un ejemplo de triángulo rectángulo, con el fin de determinar las razones trigonométricas.')
 
     .titulo-decorativo.my-4(data-aos="fade-up")
       .cont-figura
@@ -387,7 +387,7 @@
     
     .titulo-sexto.color-acento-contenido.offset-1(data-aos="zoom-in")
       h5 Figura 4.
-      span  #[i Representación de los datos en un triangulo]
+      span  #[i Representación de los datos en un triángulo]
 
     .row.justify-content-center.mb-5
       .col-md-10.desktop(data-aos="zoom-in")

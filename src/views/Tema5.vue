@@ -97,7 +97,7 @@
           .col-3
             figure
               img(src='@/assets/curso/temas/tema5/img9.svg', alt='Imagen Decorativa')
-        h4.text-center Ejemplo de intervalo de confian
+        h4.text-center Ejemplo de intervalo de confianza
         p Si se calcula un intervalo de confianza del 95 % para el peso promedio de 68 kg a 72 kg, significa que hay un 95 % de probabilidad de que el peso promedio real de todos los estudiantes esté en ese rango.
       
       

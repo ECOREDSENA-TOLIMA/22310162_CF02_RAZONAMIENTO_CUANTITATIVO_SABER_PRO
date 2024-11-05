@@ -53,7 +53,7 @@
 
     .titulo-sexto.color-acento-contenido.offset-1(data-aos="zoom-in")
       h5 Figura 1.
-      span  #[i  Tablas de verdad]
+      span  #[i  Tabla de verdad]
 
     .row.justify-content-center.mb-5
       .col-md-10.desktop(data-aos="zoom-in")
@@ -198,7 +198,7 @@
     
     .titulo-sexto.color-acento-contenido.offset-1(data-aos="zoom-in")
       h5 Figura 2.
-      span  #[i  Triangulo rectángulo]
+      span  #[i  Triángulo rectángulo]
 
     .row.justify-content-center.mb-5
       .col-md-10.desktop(data-aos="zoom-in")
@@ -364,7 +364,7 @@
           .tarjeta.color-secundario.p-4(titulo="Multiplicación")           
             .row.justify-content-center.align-items-center
               .col-lg-12
-                p la multiplicación de números complejos se realiza aplicando la propiedad distributiva y recordando que i2 = -1:
+                p La multiplicación de números complejos se realiza aplicando la propiedad distributiva y recordando que i2 = -1:
                 p 
                 .row.justify-content-center.align-items-center.mb-3
                   .col-lg-6
